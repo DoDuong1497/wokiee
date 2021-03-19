@@ -1,0 +1,55 @@
+body{
+margin: 0px;
+    font-family: 'Hind Siliguri', sans-serif;
+}
+.clanding{
+    height: 100vh;
+    background-image: url('https://cdn.shopify.com/s/files/1/0031/6604/4224/files/demo18_01_2048x.png?v=1542736595');
+    background-size: cover;
+    background-attachment: fixed;
+   
+  
+}
+.demo{
+    height: 200vh;
+    background-color: aqua;
+}
+.center p:nth-child(1){
+    min-height: 20vh;
+    margin: 0px;
+}
+.center p:nth-child(2){
+    font-size: 30px;
+    line-height: 10px;
+    color: #2879fe;
+   
+    display: block;
+    text-align: center;
+ 
+    
+
+}
+.center p:nth-child(3){
+    display: block;
+    text-align: center;
+    font-size: 75px;
+    font-weight: 500;
+    color: rgb(253, 250, 250);
+    line-height: 100%;
+    margin-top: 0px;
+    margin-bottom: 50px;
+}
+.bt {
+color: aliceblue;
+background-color: rgb(40, 121, 254);
+display: block;
+font-size: 14px;
+  position: relative;
+ left: 45%;
+    border-radius: 6px;  
+    padding: 6px 31px 4px;
+    height: 50px;
+    width: 160px;
+    border: none;
+    box-shadow: none;
+}
