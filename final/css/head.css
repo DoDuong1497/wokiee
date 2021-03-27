@@ -1,0 +1,109 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+* ul li {
+  list-style: none;
+}
+
+* ul li a {
+  text-decoration: none;
+}
+
+header {
+  height: 80px;
+  width: 100vw;
+}
+
+.menu {
+  position: relative;
+  width: 100vw;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: 15px;
+}
+
+.menu .logo {
+  position: absolute;
+  top: 50%;
+  left: 47%;
+}
+
+.menu .box {
+  position: absolute;
+  left: 1200px;
+  top: 50%;
+}
+
+.menu .box i {
+  margin: 6px;
+}
+
+.menu1 {
+  margin-top: 39px;
+}
+
+.menu1 .container1 {
+  width: 1100px;
+  margin: 0 auto;
+  position: relative;
+}
+
+.menu1 ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.menu1 ul li {
+  margin-right: 15px;
+}
+
+.menu1 ul li:hover ul.dropdown-home {
+  visibility: visible;
+  opacity: 1;
+}
+
+.menu1 ul:last-child {
+  margin-right: 0;
+}
+
+.menu1 ul a {
+  display: inline-block;
+  padding: 8px 0;
+  text-transform: uppercase;
+  font-size: 15px;
+  color: #161515;
+}
+
+.menu1 ul ul.dropdown-home {
+  position: absolute;
+  background-color: #f4f1f7;
+  width: 1100px;
+  height: 600px;
+  left: 0;
+  visibility: hidden;
+  opacity: 0;
+  -webkit-transition: all 0.2s ease-in;
+  transition: all 0.2s ease-in;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+/*# sourceMappingURL=head.css.map */
